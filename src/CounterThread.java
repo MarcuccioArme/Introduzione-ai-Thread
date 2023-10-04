@@ -1,5 +1,3 @@
-import org.w3c.dom.css.Counter;
-
 public class CounterThread extends Thread {
 
     public void run() {
@@ -9,7 +7,7 @@ public class CounterThread extends Thread {
                 Thread.sleep(10);
             }
         } catch (InterruptedException e) {
-            System.out.println("");
+            System.out.println("ERRORE");
         }
     }
 
